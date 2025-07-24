@@ -1,0 +1,22 @@
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    user-select: none;
+    touch-action: none;
+}
+
+.image {
+    display: block;
+    width: 300px;
+    height: 300px;
+}
+
+.canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
